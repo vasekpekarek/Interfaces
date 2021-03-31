@@ -1,0 +1,7 @@
+C:\Users\Peki\Desktop\C#\Interfaces\Interfaces\bin\Debug\Interfaces.exe.config
+C:\Users\Peki\Desktop\C#\Interfaces\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\Peki\Desktop\C#\Interfaces\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Peki\Desktop\C#\Interfaces\Interfaces\obj\Debug\Interfaces.csprojAssemblyReference.cache
+C:\Users\Peki\Desktop\C#\Interfaces\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Peki\Desktop\C#\Interfaces\Interfaces\obj\Debug\Interfaces.exe
+C:\Users\Peki\Desktop\C#\Interfaces\Interfaces\obj\Debug\Interfaces.pdb
