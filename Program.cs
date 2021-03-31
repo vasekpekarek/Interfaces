@@ -55,33 +55,33 @@ namespace Interfaces
         }
     }
 
-    //class Axe : IItem, IDamagable
-    //{
-    //    public string Name { get ; set; }
-    //    public int GoldValue { get; set; }
-    //    public int Durability { get ; set ; }
+    class Axe : IItem, IDamagable
+    {
+        public string Name { get; set; }
+        public int GoldValue { get; set; }
+        public int Durability { get; set; }
 
-    //    public Axe(string _name)
-    //    {
-    //        Name = _name;
-    //        GoldValue = 80;
-    //        Durability = 150;
-    //    }
-    //    public void Equip()
-    //    {
-    //        Console.WriteLine($"{Name} equiped.");
-    //    }
+        public Axe(string _name)
+        {
+            Name = _name;
+            GoldValue = 80;
+            Durability = 150;
+        }
+        public void Equip()
+        {
+            Console.WriteLine($"{Name} equiped.");
+        }
 
-    //    public void Sell()
-    //    {
-    //        Console.WriteLine($"{Name} sold for ${GoldValue}.");
-    //    }
+        public void Sell()
+        {
+            Console.WriteLine($"{Name} sold for ${GoldValue}.");
+        }
 
-    //    public void TakeDemage(int _amount)
-    //    {
-    //        Console.WriteLine($"{Name} was demaged by {_amount} points and {Name}'s durability is now at {Durability - _amount} points.");
-    //    }
-    //}
+        public void TakeDemage(int _amount)
+        {
+            Console.WriteLine($"{Name} was demaged by {_amount} points and {Name}'s durability is now at {Durability - _amount} points.");
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -93,10 +93,10 @@ namespace Interfaces
 
             Console.WriteLine();
 
-            //Axe axe = new Axe("Fury Axe");
-            //axe.Equip();
-            //axe.Sell();
-            //axe.TakeDemage(20);
+            Axe axe = new Axe("Fury Axe");
+            axe.Equip();
+            axe.Sell();
+            axe.TakeDemage(20);
 
             Console.WriteLine();
 
